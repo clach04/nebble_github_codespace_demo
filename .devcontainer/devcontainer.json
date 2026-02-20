@@ -8,8 +8,7 @@
   },
   "forwardPorts": [6080],
   "onCreateCommand": {
-    "apt": "sudo apt update && sudo apt install -y libsdl2-dev",
-    "nim": "curl https://nim-lang.org/choosenim/init.sh -sSf | sh",
+    "apt": "sudo apt update && sudo apt install -y libsdl2-dev nim",
     "pebble-tool": "curl -LsSf https://astral.sh/uv/install.sh | sh && uv tool install pebble-tool && pebble sdk install latest",
     "nimble": "nimble install nebble"
   },
