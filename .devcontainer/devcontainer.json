@@ -11,7 +11,7 @@
     "apt": "sudo apt update && sudo apt install -y libsdl2-dev",
     "nim": "curl https://nim-lang.org/choosenim/init.sh -sSf | sh",
     "pebble-tool": "curl -LsSf https://astral.sh/uv/install.sh | sh && uv tool install pebble-tool && pebble sdk install latest",
-    "nimble": "nim install nebble"
+    "nimble": "nimble install nebble"
   },
   "customizations": {
     "vscode": {
